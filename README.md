@@ -6,7 +6,7 @@ This is the third project of the Software Engineering program at TripleTen. It w
 
 - Intro
 - Figma
-- Images
+- Project Demo
 
 ## Project features
 
@@ -38,7 +38,9 @@ This project is made so all the elements are displayed correctly on popular scre
 
 - [Link to the project on Figma](https://www.figma.com/file/BBNm2bC3lj8QQMHlnqRsga/Sprint-3-Project-%E2%80%94-Spots?type=design&node-id=2%3A60&mode=design&t=afgNFybdorZO6cQo-1)
 
-**Images**
+## Project Demo
+
+[Watch the project demo video here](https://drive.google.com/file/d/1gUt7O_PkYTh3Ot4hspDHbfP-TB6I5sHt/view?usp=sharing)
 
 ## Plan on improving the project
 

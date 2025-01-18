@@ -1,12 +1,7 @@
 .footer {
   color: #fff;
-  font-family: "Poppins";
+  font-family: "Poppins", Arial, sans-serif;
   padding: 60px 80px;
-}
-
-.footer__content {
-  display: flex;
-  justify-content: space-between;
 }
 
 .footer__copyright {
@@ -15,7 +10,8 @@
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
-  font-family: "Poppins";
+  font-family: "Poppins", Arial, sans-serif;
   color: #212121;
   opacity: 0.7;
+  margin: 0 auto;
 }

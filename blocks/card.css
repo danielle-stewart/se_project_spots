@@ -8,6 +8,7 @@
   object-fit: cover;
   display: block;
   border-radius: 8px;
+  margin-bottom: 12px;
 }
 
 .card__content {
@@ -25,25 +26,33 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
+  margin: 0;
 }
 
 .card__like-btn {
-  background-image: url(../images/heart.svg);
+  background-image: url(../images/blackheart.svg);
   width: 23px;
   height: 20px;
   border: none;
   background-color: transparent;
   opacity: 40%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .card__like-btn:hover {
   cursor: pointer;
-  border: 2px solid #212121;
-  background-image: url(../images/hearthover.svg);
+  opacity: 1;
 }
 
 @media screen and (max-width: 627px) {
   .card__image {
     height: 288px;
+  }
+
+  .card__like-btn {
+    width: 20px;
+    height: 18px;
   }
 }

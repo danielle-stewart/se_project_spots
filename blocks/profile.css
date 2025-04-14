@@ -63,7 +63,7 @@
   opacity: 1;
 }
 
-.profile__add-btn {
+.profile__new-post-btn {
   display: flex;
   align-items: center;
   gap: 8px;
@@ -76,12 +76,12 @@
   padding: 18px 32px;
 }
 
-.profile__add-btn:hover {
+.profile__new-post-btn:hover {
   cursor: pointer;
   opacity: 0.8;
 }
 
-.profile__add-btn img {
+.profile__new-post-btn img {
   margin-right: 8px;
 }
 
@@ -116,7 +116,7 @@
     margin: 0 0 20px;
   }
 
-  .profile__add-btn {
+  .profile__new-post-btn {
     margin: 0 auto;
     width: 100%;
   }

@@ -72,8 +72,13 @@
   color: white;
   justify-content: center;
   border-radius: 8px;
+  border: none;
   margin-top: 138px;
-  padding: 18px 32px;
+  padding: 0 16px;
+  height: 48px;
+  width: 160px;
+  font-size: 14px;
+  white-space: nonwrap;
 }
 
 .profile__new-post-btn:hover {
@@ -131,5 +136,15 @@
   .card__title {
     font: size 16px;
     font-weight: 500px;
+  }
+}
+@media screen and (max-width: 900px) and (min-width: 628px) {
+  .profile__edit-btn {
+    align-self: center;
+  }
+
+  .profile__column {
+    align-items: center;
+    text-align: center;
   }
 }

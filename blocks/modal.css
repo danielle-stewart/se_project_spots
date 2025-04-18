@@ -56,6 +56,7 @@
   height: 40px;
   background: url(../images/close-button.svg);
   border: none;
+  opacity: 0.4;
 }
 
 .modal__close-btn:hover {

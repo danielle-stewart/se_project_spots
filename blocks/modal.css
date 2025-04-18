@@ -54,8 +54,7 @@
   right: 50px;
   width: 40px;
   height: 40px;
-  background: url(../images/close-btn-default.svg);
-  opacity: 0.4;
+  background: url(../images/close-button.svg);
   border: none;
 }
 
@@ -105,7 +104,7 @@
 
 .modal__input:hover {
   cursor: pointer;
-  border: 1px solid #007bff;
+  border: 1px solid rgba(33, 33, 33, 1);
 }
 
 .modal__submit-btn {
@@ -113,6 +112,9 @@
   padding: 18px 0;
   background-color: #212121;
   color: #fcf5e5;
+  cursor: pointer;
+  border-radius: 8px;
+  border: none;
 }
 
 @media screen and (max-width: 627px) {

@@ -86,8 +86,10 @@
   opacity: 0.8;
 }
 
-.profile__new-post-btn img {
-  margin-right: 8px;
+.profile__new-post-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
 @media screen and (max-width: 627px) {
